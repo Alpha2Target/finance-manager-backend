@@ -1,7 +1,4 @@
 services:
   - type: web
     name: finance-manager-backend
-    env: java
-    buildCommand: "./mvnw clean package"
-    startCommand: "java -jar target/finance-manager-0.0.1-SNAPSHOT.jar"
-    plan: free
+    env: docker
